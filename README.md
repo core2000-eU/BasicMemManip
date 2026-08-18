@@ -2,6 +2,8 @@
 *BasicMemManip*, a Python module that extends Python with some low-level, C/C++ -related features (intended to be used in combination with Pythons ctypes library).
 
 ## Basics
+**Compatibility:** Win and Unix-like.  
+**Status** is *public beta*. The current functions are tested on compatible platforms and evertything should be ready for full release, but I want the community to test it, too.  
 **Install** by running `pip install BasicMemManip`, **venv** highly recommended because of the low-level stuff happening. See section **Installation** below for details.  
 **Use** the library in your project by importing with `import BasicMemManip`.
 
