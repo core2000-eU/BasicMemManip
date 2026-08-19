@@ -17,6 +17,7 @@ If you don't understand what we're talking about, it's best if you leave this li
 **Manual install:** Download the entire source, unpack from ZIP, then run e.g. `python -m pip install "/path/to/folder/BasicMemManip/" --no-cache-dir`  
 
 ## Usage
+Your main frend is the **`/samples/BasicMemManip_sample1.py`** file which, on purpose, serves as documentation and example.
 Just **open up and run** **`/samples/BasicMemManip_sample1.py`**. All functions, all details are explained inside. How smart is that!
 
 ## Documentation
