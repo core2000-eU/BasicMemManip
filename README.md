@@ -2,9 +2,28 @@
 *BasicMemManip*, a Python module that extends Python with some low-level, C/C++ -related features (intended to be used in combination with Pythons ctypes library).
 
 ## Basics
-**Compatibility:** Win and Unix-like.  
-**Status** is *public beta*. The current functions are tested on compatible platforms and evertything should be ready for full release, but I want the community to test it, too.  
-**Install** by running `pip install BasicMemManip`, **venv** highly recommended because of the low-level stuff happening. See section **Installation** below for details.  
+**Compatibility:**  
+Basically: Windows and Unix-like on Python 3+.  
+Here's a list of confirmed options:  
+
+<div style="margin-left: 20px;">
+
+  | Name | Version | Description |
+  |------|---------|-------------|
+  | -- |
+  | Windows 10 |      | ✅ should work   |
+  | Windows 11 | 25H2 | ✅ confirmed working  |
+  | RHEL/Rocky Linux  | 10        | ✅ confirmed working |
+  | -- |
+  | Python  | 3.14.2        | ✅ confirmed working |
+
+</div>
+
+**Status:** *public beta*.  
+The current functions are tested on compatible platforms and evertything should be ready for full release, but I want the community to have a look at it.  
+
+**Install** by running `pip install BasicMemManip`, **venv** highly recommended because of the low-level stuff happening. See section Installation below for details.  
+
 **Use** the library in your project by importing with `import BasicMemManip`.
 
 *BasicMemManip* is especially useful when dealing with *ctypes* for C/C++ libraries.
@@ -12,9 +31,16 @@
 If you don't understand what we're talking about, it's best if you leave this library alone, you can seriously damage things. With *BasicMemManip* it's quite easy to overcome python's buffer overflow protection.
 
 ## Installation
-**venv** highly recommended. Please adapt the commands below to your needs.  
-**Auto install:** Install by running `pip install BasicMemManip`, it will download and install from pypi.org.  
-**Manual install:** Download the entire source, unpack from ZIP, then run e.g. `python -m pip install "/path/to/folder/BasicMemManip/" --no-cache-dir`  
+
+<div style="margin-left: 20px;">
+
+  | Type | Details |
+  |------|---------|
+  | **venv** highly recommended. Please adapt the commands below to your needs. |
+  | **Auto install**<br>(preferred, easiest) | run `pip install BasicMemManip`, it will download and install from pypi.org |
+  | **Manual install from source** | 1. Download the entire source from GitHub<br>2. unpack from ZIP<br>3. run e.g `python -m pip install "/path/to/folder/BasicMemManip/" --no-cache-dir` |
+
+</div>
 
 ## Usage
 Your main frend is the **`/samples/BasicMemManip_sample1.py`** file which, on purpose, serves as documentation and example.  
