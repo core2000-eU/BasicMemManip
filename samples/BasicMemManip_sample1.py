@@ -1,6 +1,6 @@
 #Copyright (c) 2026 Benjamin Winter
 #This file is part of BasicMemManip which is released under the MIT License.
-#See file LICENSE.TXT or go to https://github.com/core2000-eU/BasicMemManip for full license details.
+#See file LICENSE or go to https://github.com/core2000-eU/BasicMemManip for full license details.
 
 #DESCRIPTION
 #sample1.py for BasicMemManip, a Python module that extends Python with some low-level, C/C++ -related features (intended to be used in combination with Pythons ctypes library)
