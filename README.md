@@ -1,6 +1,11 @@
 # BasicMemManip
 *BasicMemManip*, a Python module that extends Python with some low-level, C/C++ -related features (intended to be used in combination with Pythons ctypes library).  
-[ Supporters and contributors are welcome :) ](#now-for-the-boring-part)
+
+> This project was created for **MPSS - Multi-platform shared storage** and is part of it's development.  
+*MPSS* is a brand-new way to combine, share and access storage over LAN and WAN. Run servers, workstations and clients, multiple OSs and huge numbers of devices simultaneously.  
+[Take a look here if that sounds interesting! \[core2000.com\]](https://core2000.com/software/mpss/)  
+
+[Supporters](#now-for-the-boring-part) and contributors are welcome any day of the week! :)
 
 ## Basics
 **Compatibility:**  
@@ -56,7 +61,7 @@ This library is too small for a separate documentation. We'll scramble one toget
 
 **Source code structure:**  
 `/src/P/BasicMemManip/__init__.py` is the main file which contains all functions.  
-There is no universal main entry point: The user imports the library `import BasicMemManip` and calls it's functions. There is no class to be initialized.
+There is no universal main entry point: The user imports the library `import BasicMemManip` and calls it's functions. There is no initialization.
 <br>
 <br>
 
