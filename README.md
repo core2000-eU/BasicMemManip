@@ -1,5 +1,6 @@
 # BasicMemManip
-*BasicMemManip*, a Python module that extends Python with some low-level, C/C++ -related features (intended to be used in combination with Pythons ctypes library).
+*BasicMemManip*, a Python module that extends Python with some low-level, C/C++ -related features (intended to be used in combination with Pythons ctypes library).  
+Supporters and contributors are welcome :)
 
 ## Basics
 **Compatibility:**  
@@ -47,11 +48,25 @@ Your main frend is the **`/samples/BasicMemManip_sample1.py`** file which, on pu
 Just **open up and run** **`/samples/BasicMemManip_sample1.py`**. All functions, all details are explained inside. How smart is that!
 
 ## Documentation
-This library is too small for a separate documentation, please use the source code and examples for documentation. We'll scramble one together if needed, no fear!
+This library is too small for a separate documentation, please use the source code and examples for documentation.  
+We'll scramble one together when needed, no fear!
+
+## Sources
+You may find official releases of *BasicMemManip* here:
+<div style="margin-left: 20px;">
+
+  | Site | URL |
+  |------|---------|
+  | **GitHub** | [github.com/core2000-eU/BasicMemManip](https://github.com/core2000-eU/BasicMemManip) |
+  | **pypi.org** | [pypi.org/core2000/BasicMemManip](https://pypi.org/core2000/BasicMemManip) |
+  | core2000.com (Website/info only, no release) | [core2000.com](https://core2000.com/) |
+
+</div>
 
 ## Now for the boring part
 **This library is created and maintained free of cost by a real human being /bla /bla /bla ...** You know the deal by now.  
 But seriously, monetary support a serious subject and without some income, I cannot continue to publish and maintain.  
+
 Not that anyone needs my gibberish anyways, but if you find it helpful, **please consider the below. Thanks :)**  
 --> [**buymeacoffee.com/core2000**](https://buymeacoffee.com/core2000)
 
