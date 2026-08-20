@@ -1,13 +1,11 @@
 # BasicMemManip
 *BasicMemManip*, a Python module that extends Python with some low-level, C/C++ -related features (intended to be used in combination with Pythons ctypes library).  
-Supporters and contributors are welcome :)
+[ Supporters and contributors are welcome :) ](#now-for-the-boring-part)
 
 ## Basics
 **Compatibility:**  
 Basically: Windows and Unix-like on Python 3+.  
 Here's a list of confirmed options:  
-
-<div style="margin-left: 20px;">
 
   | Name | Version | Description |
   |------|---------|-------------|
@@ -17,8 +15,6 @@ Here's a list of confirmed options:
   | RHEL/Rocky Linux  | 10        | ✅ confirmed working |
   | -- |
   | Python  | 3.14.2        | ✅ confirmed working |
-
-</div>
 
 **Status:** *public beta*.  
 The current functions are tested on compatible platforms and evertything should be ready for full release, but I want the community to have a look at it.  
@@ -33,35 +29,44 @@ If you don't understand what we're talking about, it's best if you leave this li
 
 ## Installation
 
-<div style="margin-left: 20px;">
-
   | Type | Details |
   |------|---------|
   | **venv** highly recommended. Please adapt the commands below to your needs. |
   | **Auto install**<br>(preferred, easiest) | run `pip install BasicMemManip`, it will download and install from pypi.org |
   | **Manual install from source** | 1. Download the entire source from GitHub<br>2. unpack from ZIP<br>3. run e.g `python -m pip install "/path/to/folder/BasicMemManip/" --no-cache-dir` |
 
-</div>
-
 ## Usage
 Your main frend is the **`/samples/BasicMemManip_sample1.py`** file which, on purpose, serves as documentation and example.  
 Just **open up and run** **`/samples/BasicMemManip_sample1.py`**. All functions, all details are explained inside. How smart is that!
 
 ## Documentation
-This library is too small for a separate documentation, please use the source code and examples for documentation.  
-We'll scramble one together when needed, no fear!
+This library is too small for a separate documentation. We'll scramble one together when needed, no fear!  
+<br>
+**Source file structure:**  
+```
+    <root>
+        /samples        -> sample files
+        /src            -> source code: main folder
+            /P          -> source code: python
+        LICENSE         -> LICENSE
+        README.md       -> README
+        setup.py        -> pip installer mandatory setup file
+```
+<br>
 
-## Sources
-You may find official releases of *BasicMemManip* here:
-<div style="margin-left: 20px;">
+**Source code structure:**  
+`/src/P/BasicMemManip/__init__.py` is the main file which contains all functions.  
+There is no universal main entry point: The user imports the library `import BasicMemManip` and calls it's functions. There is no class to be initialized.
+<br>
+<br>
+
+## Official Sources
 
   | Site | URL |
   |------|---------|
   | **GitHub** | [github.com/core2000-eU/BasicMemManip](https://github.com/core2000-eU/BasicMemManip) |
   | **pypi.org** | [pypi.org/core2000/BasicMemManip](https://pypi.org/core2000/BasicMemManip) |
-  | core2000.com (Website/info only, no release) | [core2000.com](https://core2000.com/) |
-
-</div>
+  | core2000.com (Website/info only, no release) | [core2000.com/software](https://core2000.com/software/) |
 
 ## Now for the boring part
 **This library is created and maintained free of cost by a real human being /bla /bla /bla ...** You know the deal by now.  
