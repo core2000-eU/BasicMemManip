@@ -1,8 +1,7 @@
 # BasicMemManip
 *BasicMemManip*, a Python module that extends Python with some low-level, C/C++ -related features (intended to be used in combination with Pythons ctypes library).  
 
-> This project was created for **MPSS - Multi-platform shared storage** and is part of it's development.  
-*MPSS* is a brand-new way to combine, share and access storage over LAN and WAN. Run servers, workstations and clients, multiple OSs and huge numbers of devices simultaneously.  
+> This project is in use by **MPSS - Multi-platform shared storage**, a brand-new way to combine, share and access storage over LAN and WAN. Run servers, workstations and clients, multiple OSs and huge numbers of devices simultaneously.  
 [Take a look here if that sounds interesting! \[core2000.com\]](https://core2000.com/software/mpss/)  
 
 [Supporters](#now-for-the-boring-part) and contributors are welcome any day of the week! :)
