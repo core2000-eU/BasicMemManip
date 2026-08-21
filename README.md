@@ -69,7 +69,7 @@ There is no universal main entry point: The user imports the library `import Bas
   | Site | URL |
   |------|---------|
   | **GitHub** | [github.com/core2000-eU/BasicMemManip](https://github.com/core2000-eU/BasicMemManip) |
-  | **pypi.org** | [pypi.org/core2000/BasicMemManip](https://pypi.org/core2000/BasicMemManip) |
+  | **pypi.org** | [pypi.org/project/BasicMemManip](https://pypi.org/project/BasicMemManip) |
   | core2000.com (Website/info only, no release) | [core2000.com/software](https://core2000.com/software/) |
 
 ## Now for the boring part
