@@ -23,12 +23,11 @@ Here's a list of confirmed options:
 **Status:** *public beta*.  
 The current functions are tested on compatible platforms and evertything should be ready for full release, but I want the community to have a look at it.  
 
-**Install** by running `pip install BasicMemManip`, **venv** highly recommended because of the low-level stuff happening. See section Installation below for details.  
+**Install** **Use** the library in your project by importing with `import BasicMemManip`.
 
-**Use** the library in your project by importing with `import BasicMemManip`.
+**Built** on W11 25H2 with python 3.14.2, pip 26.2.1, build 1.5.0, twine 7.0.0. Standard settings.
 
-*BasicMemManip* is especially useful when dealing with *ctypes* for C/C++ libraries.
-
+*BasicMemManip* is especially useful when dealing with *ctypes* for C/C++ libraries.  
 If you don't understand what we're talking about, it's best if you leave this library alone, you can seriously damage things. With *BasicMemManip* it's quite easy to overcome python's buffer overflow protection.
 
 ## Installation
@@ -40,6 +39,7 @@ If you don't understand what we're talking about, it's best if you leave this li
   | **Manual install from source** | 1. Download the entire source from GitHub<br>2. unpack from ZIP<br>3. run e.g `python -m pip install "/path/to/folder/BasicMemManip/" --no-cache-dir` |
 
 ## Usage
+Import with `import BasicMemManip`.
 Your main frend is the **`/samples/BasicMemManip_sample1.py`** file which, on purpose, serves as documentation and example.  
 Just **open up and run** **`/samples/BasicMemManip_sample1.py`**. All functions, all details are explained inside. How smart is that!
 
