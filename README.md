@@ -4,11 +4,13 @@
 > This project is in use by **MPSS - Multi-platform shared storage**, a brand-new way to combine, share and access storage over LAN and WAN. Run servers, workstations and clients, multiple OSs and huge numbers of devices simultaneously.  
 [Take a look here if that sounds interesting! \[core2000.com\]](https://core2000.com/software/mpss/)  
 
-[Supporters](#now-for-the-boring-part) and contributors are welcome any day of the week! :)
+[Supporters](#now-for-the-boring-part) and contributors are welcome any day of the week :)
+
+## Fast track
+Install with `pip install BasicMemManip`, then import with `import BasicMemManip` and use example file [`/samples/BasicMemManip_sample1.py`](https://github.com/core2000-eU/BasicMemManip/blob/main/samples/BasicMemManip_sample1.py) (GitHub) as documentation and reference.
 
 ## Basics
-**Compatibility:**  
-Basically: Windows and Unix-like on Python 3+.  
+**Compatibility**  in short: Windows and Unix-like on Python 3+.  
 Here's a list of confirmed options:  
 
   | Name | Version | Description |
@@ -22,8 +24,6 @@ Here's a list of confirmed options:
 
 **Status:** *public beta*.  
 The current functions are tested on compatible platforms and evertything should be ready for full release, but I want the community to have a look at it.  
-
-**Install** **Use** the library in your project by importing with `import BasicMemManip`.
 
 **Built** on W11 25H2 with python 3.14.2, pip 26.2.1, build 1.5.0, twine 7.0.0. Standard settings.
 
@@ -54,7 +54,7 @@ This library is too small for a separate documentation. We'll scramble one toget
             /P          -> source code: python
         LICENSE         -> LICENSE
         README.md       -> README
-        setup.py        -> pip installer mandatory setup file
+        setup.py        -> pip installer setup file
 ```
 <br>
 
