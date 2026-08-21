@@ -7,7 +7,7 @@
 [Supporters](#now-for-the-boring-part) and contributors are welcome any day of the week :)
 
 ## Fast track
-Install with `pip install BasicMemManip`, then import with `import BasicMemManip` and use example file [`/samples/BasicMemManip_sample1.py`](https://github.com/core2000-eU/BasicMemManip/blob/main/samples/BasicMemManip_sample1.py) (GitHub) as documentation and reference.
+Install with `pip install BasicMemManip`; import into your project with `import BasicMemManip`; and/or download, open and run example file [`/samples/BasicMemManip_sample1.py`](https://github.com/core2000-eU/BasicMemManip/blob/main/samples/BasicMemManip_sample1.py) from GitHub as documentation and reference.
 
 ## Basics
 **Compatibility**  in short: Windows and Unix-like on Python 3+.  
@@ -39,9 +39,9 @@ If you don't understand what we're talking about, it's best if you leave this li
   | **Manual install from source** | 1. Download the entire source from GitHub<br>2. unpack from ZIP<br>3. run e.g `python -m pip install "/path/to/folder/BasicMemManip/" --no-cache-dir` |
 
 ## Usage
-Import with `import BasicMemManip`.
-Your main frend is the **`/samples/BasicMemManip_sample1.py`** file which, on purpose, serves as documentation and example.  
-Just **open up and run** **`/samples/BasicMemManip_sample1.py`**. All functions, all details are explained inside. How smart is that!
+Import with `import BasicMemManip`.  
+Download, open and run example file [`/samples/BasicMemManip_sample1.py`](https://github.com/core2000-eU/BasicMemManip/blob/main/samples/BasicMemManip_sample1.py) from GitHub which, on purpose, serves as documentation and example.  
+All functions, all details are explained inside that file. How smart is that!
 
 ## Documentation
 This library is too small for a separate documentation. We'll scramble one together when needed, no fear!  
